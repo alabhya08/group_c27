@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/subnet_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter subnet (eg. 192.168.2) :"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/subnet_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/ping_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Press to Ping Peers!" />
+
+    <TextView
+        android:id="@+id/pinging_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/peer_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/ping_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/available_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of peers available (3 shown) :"
+        android:paddingTop="15sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/available_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <TextView
+    	android:id="@+id/avail_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+    <TextView
+    	android:id="@+id/avail_2"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+    <TextView
+    	android:id="@+id/avail_3"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+            
+      
+
+</LinearLayout>

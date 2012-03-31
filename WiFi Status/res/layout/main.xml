@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/state_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/network_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/ssid_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SSID :"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#0099CC" android:paddingTop="10sp"/>
+    
+    <TextView
+        android:id="@+id/ssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/rssi_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signal Strength :"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#0099CC" android:paddingTop="10sp"/>
+    
+    <TextView
+        android:id="@+id/rssi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/bssid_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAC Address of Router :"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#0099CC" android:paddingTop="10sp"/>
+    
+    <TextView
+        android:id="@+id/bssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/mac_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAC Address of Phone :"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#0099CC" android:paddingTop="10sp"/>
+    
+    <TextView
+        android:id="@+id/mac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    
+
+</LinearLayout>
